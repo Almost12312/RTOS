@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/user/c_projects/RTOS",
+  "command": "/usr/bin/cc  -I/home/user/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/main.c.o -c /home/user/c_projects/RTOS/main.c",
+  "file": "/home/user/c_projects/RTOS/main.c"
+},
+{
+  "directory": "/home/user/c_projects/RTOS",
+  "command": "/usr/bin/cc  -I/home/user/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/core/task/Src/task.c.o -c /home/user/c_projects/RTOS/core/task/Src/task.c",
+  "file": "/home/user/c_projects/RTOS/core/task/Src/task.c"
+},
+{
+  "directory": "/home/user/c_projects/RTOS",
+  "command": "/usr/bin/cc  -I/home/user/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o -c /home/user/c_projects/RTOS/core/scheduler/Src/scheduler.c",
+  "file": "/home/user/c_projects/RTOS/core/scheduler/Src/scheduler.c"
+}
+]

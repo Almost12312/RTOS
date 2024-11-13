@@ -1,0 +1,3 @@
+/home/user/c_projects/RTOS/CMakeFiles/rtos.dir
+/home/user/c_projects/RTOS/CMakeFiles/edit_cache.dir
+/home/user/c_projects/RTOS/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/app.dir/main.c.o CMakeFiles/app.dir/core/scheduler/Src/scheduler.c.o -o app 
