@@ -19,4 +19,6 @@ CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /home/user/c_projects/RTOS/core/scheduler/Inc/scheduler.h \
  /home/user/c_projects/RTOS/core/task/Inc/task.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+ /home/user/c_projects/RTOS/core/task/Inc/queue/queue.h \
+ /home/user/c_projects/RTOS/core/config/main_config.h

@@ -3,6 +3,10 @@
 
 #include <stdint.h>
 #include "task/Inc/task.h"
+#include "task/Inc/queue/queue.h"
+
+#define SCHEDULER_BEFORE_TASK_INDEX ( 0 )
+#define SCHEDULER_AFTER_TASK_INDEX  ( 1 )
 
 typedef struct Scheduler 
 {
@@ -13,7 +17,7 @@ typedef struct Scheduler
 void scheduler_init( const xTaskQueue_t* queue );
 void scheduler_start( void );
 
-void scheduler_switch_to( taskID_t id );
+taskID_t scheduler_find_next( void );
 
 #endif // !SCHEDULER_H
 

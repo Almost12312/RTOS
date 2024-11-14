@@ -1,7 +1,8 @@
 #include "task/Inc/task.h"
+#include "task/Inc/queue/queue.h"
 #include <stdlib.h>
 
-const xTaskQueue_t* xTaskQueue;
+extern const xTaskQueue_t* pxTaskQueue;
 
 taskID_t task_new( taskPriority_t priority ) 
 {
@@ -10,17 +11,16 @@ taskID_t task_new( taskPriority_t priority )
   /*xTaskQueue = NULL;*/
   /**/
   /*xTaskQueue = malloc( sizeof( xTaskQueue_t ) );*/
-
+ return eReservedIDIdleTask;
 }
 
-xTask_t* task_find_by_id( taskID_t id )
+const xTask_t* task_find_by_id( taskID_t id )
 {
-
-  for( uint8_t i = 0; i < xTaskQueue->ulSize; ++i )
+  for( uint8_t i = 0; i < pxTaskQueue->ulSize; ++i )
   {
-    if( xTaskQueue->pxTasks[ i ].id == id )
+    if( id == pxTaskQueue->axTasks[ i ].id )
     {
-      return &xTaskQueue->pxTasks[ i ];
+      return &pxTaskQueue->axTasks[ i ];
     }
 
   }

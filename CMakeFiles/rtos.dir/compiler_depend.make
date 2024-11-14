@@ -23,7 +23,9 @@ CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o: core/scheduler/Src/schedul
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   core/scheduler/Inc/scheduler.h \
   core/task/Inc/task.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  core/task/Inc/queue/queue.h \
+  core/config/main_config.h
 
 CMakeFiles/rtos.dir/core/task/Src/task.c.o: core/task/Src/task.c \
   /usr/include/stdc-predef.h \
@@ -46,6 +48,8 @@ CMakeFiles/rtos.dir/core/task/Src/task.c.o: core/task/Src/task.c \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  core/task/Inc/queue/queue.h \
+  core/config/main_config.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -122,15 +126,13 @@ main.c:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -148,6 +150,14 @@ main.c:
 
 /usr/include/features.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+core/task/Inc/queue/queue.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
@@ -163,6 +173,8 @@ main.c:
 /usr/include/alloca.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
+
+core/config/main_config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -203,7 +215,3 @@ core/scheduler/Inc/scheduler.h:
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 core/task/Src/task.c:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
