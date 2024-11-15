@@ -1,7 +1,6 @@
 CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o: \
  /home/buser/c_projects/RTOS/core/task/Src/queue/queue.c \
  /usr/include/stdc-predef.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /home/buser/c_projects/RTOS/core/task/Inc/queue/queue.h \
  /home/buser/c_projects/RTOS/core/config/main_config.h \
  /home/buser/c_projects/RTOS/core/task/Inc/task.h \

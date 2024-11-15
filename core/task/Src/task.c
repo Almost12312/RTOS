@@ -4,16 +4,6 @@
 
 extern const xTaskQueue_t* pxTaskQueue;
 
-taskID_t task_new( taskPriority_t priority ) 
-{
-  /*free( ( xTaskQueue_t* ) xTaskQueue );*/
-  /**/
-  /*xTaskQueue = NULL;*/
-  /**/
-  /*xTaskQueue = malloc( sizeof( xTaskQueue_t ) );*/
- return eReservedIDIdleTask;
-}
-
 const xTask_t* task_find_by_id( taskID_t id )
 {
   for( uint8_t i = 0; i < pxTaskQueue->ulSize; ++i )

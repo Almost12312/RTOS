@@ -15,5 +15,8 @@ add_executable(rtos
   main.c 
   core/task/Src/task.c
   core/scheduler/Src/scheduler.c
+  core/scheduler/Src/switch.c
+
   core/task/Src/queue/queue.c
+  core/task/Src/task_idle.c
 )

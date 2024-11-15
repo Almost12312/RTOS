@@ -16,7 +16,17 @@
 },
 {
   "directory": "/home/buser/c_projects/RTOS",
+  "command": "/usr/bin/cc  -I/home/buser/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.o -c /home/buser/c_projects/RTOS/core/scheduler/Src/switch.c",
+  "file": "/home/buser/c_projects/RTOS/core/scheduler/Src/switch.c"
+},
+{
+  "directory": "/home/buser/c_projects/RTOS",
   "command": "/usr/bin/cc  -I/home/buser/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o -c /home/buser/c_projects/RTOS/core/task/Src/queue/queue.c",
   "file": "/home/buser/c_projects/RTOS/core/task/Src/queue/queue.c"
+},
+{
+  "directory": "/home/buser/c_projects/RTOS",
+  "command": "/usr/bin/cc  -I/home/buser/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/core/task/Src/task_idle.c.o -c /home/buser/c_projects/RTOS/core/task/Src/task_idle.c",
+  "file": "/home/buser/c_projects/RTOS/core/task/Src/task_idle.c"
 }
 ]

@@ -7,6 +7,8 @@
 typedef uint32_t taskID_t;
 typedef uint32_t taskPriority_t;
 
+typedef void ( *Run ) ( void );
+
 typedef enum ReservedIDs 
 {
   eReservedIDIdleTask,
@@ -25,11 +27,9 @@ typedef struct Task
   taskID_t id;
   taskPriority_t priority;
   
-  void (*pfRun) (void);
+  Run run;
 
 } xTask_t; 
-
-taskID_t task_new( taskPriority_t priority );
 
 const xTask_t* task_find_by_id( taskID_t id );
 

@@ -153,6 +153,30 @@ core/scheduler/Src/scheduler.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.s
 .PHONY : core/scheduler/Src/scheduler.c.s
 
+core/scheduler/Src/switch.o: core/scheduler/Src/switch.c.o
+.PHONY : core/scheduler/Src/switch.o
+
+# target to build an object file
+core/scheduler/Src/switch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.o
+.PHONY : core/scheduler/Src/switch.c.o
+
+core/scheduler/Src/switch.i: core/scheduler/Src/switch.c.i
+.PHONY : core/scheduler/Src/switch.i
+
+# target to preprocess a source file
+core/scheduler/Src/switch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.i
+.PHONY : core/scheduler/Src/switch.c.i
+
+core/scheduler/Src/switch.s: core/scheduler/Src/switch.c.s
+.PHONY : core/scheduler/Src/switch.s
+
+# target to generate assembly for a file
+core/scheduler/Src/switch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.s
+.PHONY : core/scheduler/Src/switch.c.s
+
 core/task/Src/queue/queue.o: core/task/Src/queue/queue.c.o
 .PHONY : core/task/Src/queue/queue.o
 
@@ -201,6 +225,30 @@ core/task/Src/task.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/task/Src/task.c.s
 .PHONY : core/task/Src/task.c.s
 
+core/task/Src/task_idle.o: core/task/Src/task_idle.c.o
+.PHONY : core/task/Src/task_idle.o
+
+# target to build an object file
+core/task/Src/task_idle.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/task/Src/task_idle.c.o
+.PHONY : core/task/Src/task_idle.c.o
+
+core/task/Src/task_idle.i: core/task/Src/task_idle.c.i
+.PHONY : core/task/Src/task_idle.i
+
+# target to preprocess a source file
+core/task/Src/task_idle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/task/Src/task_idle.c.i
+.PHONY : core/task/Src/task_idle.c.i
+
+core/task/Src/task_idle.s: core/task/Src/task_idle.c.s
+.PHONY : core/task/Src/task_idle.s
+
+# target to generate assembly for a file
+core/task/Src/task_idle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/task/Src/task_idle.c.s
+.PHONY : core/task/Src/task_idle.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -237,12 +285,18 @@ help:
 	@echo "... core/scheduler/Src/scheduler.o"
 	@echo "... core/scheduler/Src/scheduler.i"
 	@echo "... core/scheduler/Src/scheduler.s"
+	@echo "... core/scheduler/Src/switch.o"
+	@echo "... core/scheduler/Src/switch.i"
+	@echo "... core/scheduler/Src/switch.s"
 	@echo "... core/task/Src/queue/queue.o"
 	@echo "... core/task/Src/queue/queue.i"
 	@echo "... core/task/Src/queue/queue.s"
 	@echo "... core/task/Src/task.o"
 	@echo "... core/task/Src/task.i"
 	@echo "... core/task/Src/task.s"
+	@echo "... core/task/Src/task_idle.o"
+	@echo "... core/task/Src/task_idle.i"
+	@echo "... core/task/Src/task_idle.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

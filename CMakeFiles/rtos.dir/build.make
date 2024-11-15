@@ -111,10 +111,24 @@ CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/buser/c_projects/RTOS/core/scheduler/Src/scheduler.c -o CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.s
 
+CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.o: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.o: core/scheduler/Src/switch.c
+CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.o: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.o -MF CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.o.d -o CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.o -c /home/buser/c_projects/RTOS/core/scheduler/Src/switch.c
+
+CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/buser/c_projects/RTOS/core/scheduler/Src/switch.c > CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.i
+
+CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/buser/c_projects/RTOS/core/scheduler/Src/switch.c -o CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.s
+
 CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o: CMakeFiles/rtos.dir/flags.make
 CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o: core/task/Src/queue/queue.c
 CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o -MF CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o.d -o CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o -c /home/buser/c_projects/RTOS/core/task/Src/queue/queue.c
 
 CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.i: cmake_force
@@ -125,12 +139,28 @@ CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/buser/c_projects/RTOS/core/task/Src/queue/queue.c -o CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.s
 
+CMakeFiles/rtos.dir/core/task/Src/task_idle.c.o: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/core/task/Src/task_idle.c.o: core/task/Src/task_idle.c
+CMakeFiles/rtos.dir/core/task/Src/task_idle.c.o: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtos.dir/core/task/Src/task_idle.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/core/task/Src/task_idle.c.o -MF CMakeFiles/rtos.dir/core/task/Src/task_idle.c.o.d -o CMakeFiles/rtos.dir/core/task/Src/task_idle.c.o -c /home/buser/c_projects/RTOS/core/task/Src/task_idle.c
+
+CMakeFiles/rtos.dir/core/task/Src/task_idle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/core/task/Src/task_idle.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/buser/c_projects/RTOS/core/task/Src/task_idle.c > CMakeFiles/rtos.dir/core/task/Src/task_idle.c.i
+
+CMakeFiles/rtos.dir/core/task/Src/task_idle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/core/task/Src/task_idle.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/buser/c_projects/RTOS/core/task/Src/task_idle.c -o CMakeFiles/rtos.dir/core/task/Src/task_idle.c.s
+
 # Object files for target rtos
 rtos_OBJECTS = \
 "CMakeFiles/rtos.dir/main.c.o" \
 "CMakeFiles/rtos.dir/core/task/Src/task.c.o" \
 "CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o" \
-"CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o"
+"CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.o" \
+"CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o" \
+"CMakeFiles/rtos.dir/core/task/Src/task_idle.c.o"
 
 # External object files for target rtos
 rtos_EXTERNAL_OBJECTS =
@@ -138,10 +168,12 @@ rtos_EXTERNAL_OBJECTS =
 rtos: CMakeFiles/rtos.dir/main.c.o
 rtos: CMakeFiles/rtos.dir/core/task/Src/task.c.o
 rtos: CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o
+rtos: CMakeFiles/rtos.dir/core/scheduler/Src/switch.c.o
 rtos: CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o
+rtos: CMakeFiles/rtos.dir/core/task/Src/task_idle.c.o
 rtos: CMakeFiles/rtos.dir/build.make
 rtos: CMakeFiles/rtos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable rtos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable rtos"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtos.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
