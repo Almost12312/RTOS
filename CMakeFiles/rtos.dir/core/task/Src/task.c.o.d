@@ -1,7 +1,7 @@
 CMakeFiles/rtos.dir/core/task/Src/task.c.o: \
- /home/user/c_projects/RTOS/core/task/Src/task.c \
+ /home/buser/c_projects/RTOS/core/task/Src/task.c \
  /usr/include/stdc-predef.h \
- /home/user/c_projects/RTOS/core/task/Inc/task.h \
+ /home/buser/c_projects/RTOS/core/task/Inc/task.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -18,8 +18,8 @@ CMakeFiles/rtos.dir/core/task/Src/task.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/user/c_projects/RTOS/core/task/Inc/queue/queue.h \
- /home/user/c_projects/RTOS/core/config/main_config.h \
+ /home/buser/c_projects/RTOS/core/task/Inc/queue/queue.h \
+ /home/buser/c_projects/RTOS/core/config/main_config.h \
  /usr/include/stdlib.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \

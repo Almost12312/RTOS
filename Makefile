@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/c_projects/RTOS
+CMAKE_SOURCE_DIR = /home/buser/c_projects/RTOS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/c_projects/RTOS
+CMAKE_BINARY_DIR = /home/buser/c_projects/RTOS
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/c_projects/RTOS/CMakeFiles /home/user/c_projects/RTOS//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buser/c_projects/RTOS/CMakeFiles /home/buser/c_projects/RTOS//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/c_projects/RTOS/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buser/c_projects/RTOS/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,30 @@ core/scheduler/Src/scheduler.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.s
 .PHONY : core/scheduler/Src/scheduler.c.s
 
+core/task/Src/queue/queue.o: core/task/Src/queue/queue.c.o
+.PHONY : core/task/Src/queue/queue.o
+
+# target to build an object file
+core/task/Src/queue/queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o
+.PHONY : core/task/Src/queue/queue.c.o
+
+core/task/Src/queue/queue.i: core/task/Src/queue/queue.c.i
+.PHONY : core/task/Src/queue/queue.i
+
+# target to preprocess a source file
+core/task/Src/queue/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.i
+.PHONY : core/task/Src/queue/queue.c.i
+
+core/task/Src/queue/queue.s: core/task/Src/queue/queue.c.s
+.PHONY : core/task/Src/queue/queue.s
+
+# target to generate assembly for a file
+core/task/Src/queue/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.s
+.PHONY : core/task/Src/queue/queue.c.s
+
 core/task/Src/task.o: core/task/Src/task.c.o
 .PHONY : core/task/Src/task.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... core/scheduler/Src/scheduler.o"
 	@echo "... core/scheduler/Src/scheduler.i"
 	@echo "... core/scheduler/Src/scheduler.s"
+	@echo "... core/task/Src/queue/queue.o"
+	@echo "... core/task/Src/queue/queue.i"
+	@echo "... core/task/Src/queue/queue.s"
 	@echo "... core/task/Src/task.o"
 	@echo "... core/task/Src/task.i"
 	@echo "... core/task/Src/task.s"

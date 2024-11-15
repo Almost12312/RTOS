@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/c_projects/RTOS
+CMAKE_SOURCE_DIR = /home/buser/c_projects/RTOS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/c_projects/RTOS
+CMAKE_BINARY_DIR = /home/buser/c_projects/RTOS
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/rtos.dir/clean
 CMakeFiles/rtos.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/c_projects/RTOS/CMakeFiles --progress-num=1,2,3,4 "Built target rtos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=1,2,3,4,5 "Built target rtos"
 .PHONY : CMakeFiles/rtos.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rtos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/c_projects/RTOS/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buser/c_projects/RTOS/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rtos.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/c_projects/RTOS/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/buser/c_projects/RTOS/CMakeFiles 0
 .PHONY : CMakeFiles/rtos.dir/rule
 
 # Convenience name for target.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/c_projects/RTOS
+CMAKE_SOURCE_DIR = /home/buser/c_projects/RTOS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/c_projects/RTOS
+CMAKE_BINARY_DIR = /home/buser/c_projects/RTOS
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rtos.dir/depend.make
@@ -72,50 +72,65 @@ include CMakeFiles/rtos.dir/flags.make
 CMakeFiles/rtos.dir/main.c.o: CMakeFiles/rtos.dir/flags.make
 CMakeFiles/rtos.dir/main.c.o: main.c
 CMakeFiles/rtos.dir/main.c.o: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtos.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/main.c.o -MF CMakeFiles/rtos.dir/main.c.o.d -o CMakeFiles/rtos.dir/main.c.o -c /home/user/c_projects/RTOS/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtos.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/main.c.o -MF CMakeFiles/rtos.dir/main.c.o.d -o CMakeFiles/rtos.dir/main.c.o -c /home/buser/c_projects/RTOS/main.c
 
 CMakeFiles/rtos.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/c_projects/RTOS/main.c > CMakeFiles/rtos.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/buser/c_projects/RTOS/main.c > CMakeFiles/rtos.dir/main.c.i
 
 CMakeFiles/rtos.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/c_projects/RTOS/main.c -o CMakeFiles/rtos.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/buser/c_projects/RTOS/main.c -o CMakeFiles/rtos.dir/main.c.s
 
 CMakeFiles/rtos.dir/core/task/Src/task.c.o: CMakeFiles/rtos.dir/flags.make
 CMakeFiles/rtos.dir/core/task/Src/task.c.o: core/task/Src/task.c
 CMakeFiles/rtos.dir/core/task/Src/task.c.o: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtos.dir/core/task/Src/task.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/core/task/Src/task.c.o -MF CMakeFiles/rtos.dir/core/task/Src/task.c.o.d -o CMakeFiles/rtos.dir/core/task/Src/task.c.o -c /home/user/c_projects/RTOS/core/task/Src/task.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtos.dir/core/task/Src/task.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/core/task/Src/task.c.o -MF CMakeFiles/rtos.dir/core/task/Src/task.c.o.d -o CMakeFiles/rtos.dir/core/task/Src/task.c.o -c /home/buser/c_projects/RTOS/core/task/Src/task.c
 
 CMakeFiles/rtos.dir/core/task/Src/task.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/core/task/Src/task.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/c_projects/RTOS/core/task/Src/task.c > CMakeFiles/rtos.dir/core/task/Src/task.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/buser/c_projects/RTOS/core/task/Src/task.c > CMakeFiles/rtos.dir/core/task/Src/task.c.i
 
 CMakeFiles/rtos.dir/core/task/Src/task.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/core/task/Src/task.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/c_projects/RTOS/core/task/Src/task.c -o CMakeFiles/rtos.dir/core/task/Src/task.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/buser/c_projects/RTOS/core/task/Src/task.c -o CMakeFiles/rtos.dir/core/task/Src/task.c.s
 
 CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o: CMakeFiles/rtos.dir/flags.make
 CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o: core/scheduler/Src/scheduler.c
 CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o -MF CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o.d -o CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o -c /home/user/c_projects/RTOS/core/scheduler/Src/scheduler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o -MF CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o.d -o CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o -c /home/buser/c_projects/RTOS/core/scheduler/Src/scheduler.c
 
 CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/c_projects/RTOS/core/scheduler/Src/scheduler.c > CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/buser/c_projects/RTOS/core/scheduler/Src/scheduler.c > CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.i
 
 CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/c_projects/RTOS/core/scheduler/Src/scheduler.c -o CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/buser/c_projects/RTOS/core/scheduler/Src/scheduler.c -o CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.s
+
+CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o: CMakeFiles/rtos.dir/flags.make
+CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o: core/task/Src/queue/queue.c
+CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o: CMakeFiles/rtos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o -MF CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o.d -o CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o -c /home/buser/c_projects/RTOS/core/task/Src/queue/queue.c
+
+CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/buser/c_projects/RTOS/core/task/Src/queue/queue.c > CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.i
+
+CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/buser/c_projects/RTOS/core/task/Src/queue/queue.c -o CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.s
 
 # Object files for target rtos
 rtos_OBJECTS = \
 "CMakeFiles/rtos.dir/main.c.o" \
 "CMakeFiles/rtos.dir/core/task/Src/task.c.o" \
-"CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o"
+"CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o" \
+"CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o"
 
 # External object files for target rtos
 rtos_EXTERNAL_OBJECTS =
@@ -123,9 +138,10 @@ rtos_EXTERNAL_OBJECTS =
 rtos: CMakeFiles/rtos.dir/main.c.o
 rtos: CMakeFiles/rtos.dir/core/task/Src/task.c.o
 rtos: CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o
+rtos: CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o
 rtos: CMakeFiles/rtos.dir/build.make
 rtos: CMakeFiles/rtos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable rtos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/buser/c_projects/RTOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable rtos"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtos.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +153,6 @@ CMakeFiles/rtos.dir/clean:
 .PHONY : CMakeFiles/rtos.dir/clean
 
 CMakeFiles/rtos.dir/depend:
-	cd /home/user/c_projects/RTOS && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/c_projects/RTOS /home/user/c_projects/RTOS /home/user/c_projects/RTOS /home/user/c_projects/RTOS /home/user/c_projects/RTOS/CMakeFiles/rtos.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/buser/c_projects/RTOS && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/buser/c_projects/RTOS /home/buser/c_projects/RTOS /home/buser/c_projects/RTOS /home/buser/c_projects/RTOS /home/buser/c_projects/RTOS/CMakeFiles/rtos.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rtos.dir/depend
 

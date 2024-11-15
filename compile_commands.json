@@ -1,17 +1,22 @@
 [
 {
-  "directory": "/home/user/c_projects/RTOS",
-  "command": "/usr/bin/cc  -I/home/user/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/main.c.o -c /home/user/c_projects/RTOS/main.c",
-  "file": "/home/user/c_projects/RTOS/main.c"
+  "directory": "/home/buser/c_projects/RTOS",
+  "command": "/usr/bin/cc  -I/home/buser/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/main.c.o -c /home/buser/c_projects/RTOS/main.c",
+  "file": "/home/buser/c_projects/RTOS/main.c"
 },
 {
-  "directory": "/home/user/c_projects/RTOS",
-  "command": "/usr/bin/cc  -I/home/user/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/core/task/Src/task.c.o -c /home/user/c_projects/RTOS/core/task/Src/task.c",
-  "file": "/home/user/c_projects/RTOS/core/task/Src/task.c"
+  "directory": "/home/buser/c_projects/RTOS",
+  "command": "/usr/bin/cc  -I/home/buser/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/core/task/Src/task.c.o -c /home/buser/c_projects/RTOS/core/task/Src/task.c",
+  "file": "/home/buser/c_projects/RTOS/core/task/Src/task.c"
 },
 {
-  "directory": "/home/user/c_projects/RTOS",
-  "command": "/usr/bin/cc  -I/home/user/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o -c /home/user/c_projects/RTOS/core/scheduler/Src/scheduler.c",
-  "file": "/home/user/c_projects/RTOS/core/scheduler/Src/scheduler.c"
+  "directory": "/home/buser/c_projects/RTOS",
+  "command": "/usr/bin/cc  -I/home/buser/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o -c /home/buser/c_projects/RTOS/core/scheduler/Src/scheduler.c",
+  "file": "/home/buser/c_projects/RTOS/core/scheduler/Src/scheduler.c"
+},
+{
+  "directory": "/home/buser/c_projects/RTOS",
+  "command": "/usr/bin/cc  -I/home/buser/c_projects/RTOS/core  -o CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o -c /home/buser/c_projects/RTOS/core/task/Src/queue/queue.c",
+  "file": "/home/buser/c_projects/RTOS/core/task/Src/queue/queue.c"
 }
 ]

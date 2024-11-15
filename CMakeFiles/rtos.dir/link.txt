@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/rtos.dir/main.c.o CMakeFiles/rtos.dir/core/task/Src/task.c.o CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o -o rtos 
+/usr/bin/cc CMakeFiles/rtos.dir/main.c.o CMakeFiles/rtos.dir/core/task/Src/task.c.o CMakeFiles/rtos.dir/core/scheduler/Src/scheduler.c.o CMakeFiles/rtos.dir/core/task/Src/queue/queue.c.o -o rtos 

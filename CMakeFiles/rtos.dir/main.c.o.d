@@ -1,6 +1,6 @@
-CMakeFiles/rtos.dir/main.c.o: /home/user/c_projects/RTOS/main.c \
+CMakeFiles/rtos.dir/main.c.o: /home/buser/c_projects/RTOS/main.c \
  /usr/include/stdc-predef.h \
- /home/user/c_projects/RTOS/core/task/Inc/task.h \
+ /home/buser/c_projects/RTOS/core/task/Inc/task.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

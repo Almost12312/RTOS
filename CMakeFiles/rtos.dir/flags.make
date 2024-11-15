@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/user/c_projects/RTOS/core
+C_INCLUDES = -I/home/buser/c_projects/RTOS/core
 
 C_FLAGS = 
 
