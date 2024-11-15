@@ -17,11 +17,11 @@ void scheduler_init( const xTaskQueue_t* queue )
 
 void scheduler_start( void )
 {
-  taskID_t i = eReservedIDFirstTask;
+  taskID_t i = 0;
 
   while( true )
   {
-    if( i == MAX_TASKS + eReservedIDFirstTask )
+    if( i == MAX_TASKS )
     {
       i = eReservedIDFirstTask;
 

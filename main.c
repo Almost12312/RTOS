@@ -20,6 +20,8 @@ int main(void)
 
 void init( void )
 {
-  scheduler_init(pxTaskQueue);
+  task_queue_init();
+
+  scheduler_init( pxTaskQueue );
 }
 

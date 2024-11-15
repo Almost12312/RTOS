@@ -16,4 +16,6 @@ extern const xTaskQueue_t* pxTaskQueue;
 void task_queue_change_set_waiting( taskID_t id );
 void task_queue_create_task( Run run, taskPriority_t priority );
 
+void task_queue_init( void );
+
 #endif  // INCLUDE/home/user/c_projects/RTOS/core/task/Inc/queuequeuequeue.h_
